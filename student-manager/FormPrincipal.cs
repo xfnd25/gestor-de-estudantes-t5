@@ -16,5 +16,10 @@ namespace student_manager
         {
             InitializeComponent();
         }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace student_manager
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Login_Form());
-            Login_Form telaDeLogin = new Login_Form();
+            ForminserirEstudante telaDeLogin = new ForminserirEstudante();
 
             if (telaDeLogin.ShowDialog() == DialogResult.OK) 
             {
